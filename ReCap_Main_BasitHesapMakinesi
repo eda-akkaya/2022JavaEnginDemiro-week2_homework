@@ -1,0 +1,10 @@
+public class Main {  // Basit hesap makinesi
+
+    public static void main(String[] args) {
+        DortIslem dortIslem = new DortIslem();
+        int sonuç = dortIslem.Topla(3, 4);
+        System.out.println(sonuç);
+    }
+    
+    // Classların temel özelliği ortak operasyonları tutmaktır.
+}
